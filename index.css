@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #F2FFFF;
+    height: 100%;
+}
+
+.bg {
+    background-image: url("Images/aitravelagent1.png");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+}
+
+#begin-btn {
+    border-radius: 40px;
+    border: 4px solid #000;
+    background: #4BDCB0;
+    width: 324px;
+    height: 60px;
+    margin: 15px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 324px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 324px;
+    height: 65px;
+    border: 2px solid black;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.sep {
+    margin-bottom: 15px;
+}
+
+#traveller {
+    justify-content: space-evenly;
+}
+
+.info-input {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    overflow: auto;
+    font-family: Inter;
+    font-weight: bold;
+}
+
+img {
+    margin-bottom: 3px;
+}
+
+#info-btn {
+    border-radius: 40px;
+    border: 4px solid #000;
+    background: #4BDCB0;
+    width: 324px;
+    height: 60px;
+    margin: 15px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Results CSS */
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #F2FFFF;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-div {
+    width: 351px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-place {
+    display: flex;
+    flex-direction: row;
+}
+
+.date-results {
+    border: solid 1px #BBF7F7;
+    border-radius: 5px;
+    margin: 0px 40px;
+    padding: 5px;
+    background: #BBF7F7;
+}
+
+.res-p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.res-btn {
+    font-weight: bold;
+    background: #4BDCB0;
+    border-radius: 5px;
+    width: 250px;
+    margin: 5px;
+}
+
+.res-bord {
+    background: #BBF7F7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#res-place {
+    margin-top: 20px;
+    padding: 10px;
+}
