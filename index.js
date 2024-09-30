@@ -23,19 +23,6 @@ btn.addEventListener("click", function(event) {
     secondDiv.classList.add("hidden")
     preForm.classList.remove("hidden")
 })
-function increment() {
-    const newTrav = document.getElementById('info-trav')
-    newTrav.value++ 
-}
-
-function decrement() {
-    const infoTrav = document.getElementById('info-trav')
-    if (infoTrav.value <= 0) {
-        infoTrav.value = 0
-    } else {
-        infoTrav.value--
-    }
-}
 
 const messages = [
     { role: "system", content: `You are an AI travel agent, you are required
