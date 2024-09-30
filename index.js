@@ -12,6 +12,30 @@ const availableFunctions = {
     getCurrentWeather
 }
 
+const firstDiv = document.querySelector(".bg")
+const secondDiv = document.querySelector(".container")
+const btn = document.getElementById('begin-btn')
+const preForm = document.getElementById('input-form')
+btn.addEventListener("click", function(event) {
+    event.preventDefault()
+    console.log("button clicked")
+    firstDiv.classList.add("hidden")
+    secondDiv.classList.add("hidden")
+    preForm.classList.remove("hidden")
+})
+function increment() {
+    const newTrav = document.getElementById('info-trav')
+    newTrav.value++ 
+}
+
+function decrement() {
+    const infoTrav = document.getElementById('info-trav')
+    if (infoTrav.value <= 0) {
+        infoTrav.value = 0
+    } else {
+        infoTrav.value--
+    }
+}
 
 const messages = [
     { role: "system", content: `You are an AI travel agent, you are required
